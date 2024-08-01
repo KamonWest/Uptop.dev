@@ -1,0 +1,38 @@
+@import url(style.css);
+
+/*.container {
+    grid-template-rows: 100px 350px 600px 100px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "hd hd hd"
+    "feat feat feat"
+    "main main main"
+    "main main main"
+    "ft ft ft";
+    grid-auto-rows: minmax(100px, auto);
+    gap: 10px 15px;
+    height: 100vh;
+    padding: 10px;
+    border: 2px solid #3428ff;
+}
+
+.box {
+    border: 1px solid #3428ff;
+    background: #f4f3ea;
+}
+
+.header {
+    grid-area: hd;
+}
+
+.footer {
+    grid-area: ft;
+}
+
+.feature {
+    grid-area: feat;
+}
+
+.content {
+    grid-area: main;
+} */
