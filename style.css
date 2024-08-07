@@ -14,6 +14,7 @@ body, html {
     font-style: normal;
     font-size: 16px;
     line-height: 1.35;
+    text-align: center;
 }
 
 p {
@@ -26,10 +27,10 @@ p {
     display: grid;
     width: 100%;
     grid-template-areas: 
-    "hd" 
-    "main" 
-    "sd" 
-    "ft";
+    "hd hd" 
+    "sd main" 
+    "sd main" 
+    "ft ft";
         /* row start/ column start/ row end/ column end */
     grid-template-rows: auto 1fr auto auto;
     grid-template-columns: 1fr;
