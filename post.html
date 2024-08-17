@@ -9,39 +9,94 @@
         />
         <link rel="stylesheet" href="blog.css">
     </head>
+
     <body>
         <div class="container">
             <div class="header">
-                <h1>New Beginnings</h1>
-                <div class="card-image">
-                    <img src="itsame.jpg" alt="my smiling face">
+                <nav class="navbar">
+                    <div class="logo1">UPTOP
+                        <div class="logo2">.dev</div>
+                    </div>
+                    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                    <label for="menu-toggle" class="menu-icon">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </label>
+                    <div class="navbar-links">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#search">Search</a></li>
+                            <li><a href="#subscribe">Subscribe</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="header-image">
+                    <img src="https://images.pexels.com/photos/4328301/pexels-photo-4328301.jpeg?cs=srgb&dl=pexels-arthousestudio-4328301.jpg&fm=jpg&_gl=1*3sjzfv*_ga*NDg0MjEwMjUyLjE3MTg2NTg3Njk.*_ga_8JE65Q40S6*MTcyMTc0OTc1OC4zLjEuMTcyMTc1MDAwNy4wLjAuMA.." alt="LC80 in the dunes">
+                 <div>
+                    <p class="header-text">Travel, Trails, Tech, and self development.</p>
+                 </div>
                 </div>
             </div>
-
+    
+            <aside class="sidebar">
+                <h2>Blog Posts</h2>
+                <a href="post.html">
+                    Most Recent Post
+                </a>
+            </aside>
+    
             <div class="content">
-               <p>
-                Good day, good people! I am Kamon, a creative front-end developer, marking this as our first stop on the UpTop Dev journey.
-               </p>
-               <p>I love all things automotive, hanging out with my wife and son, basketball, boxing, gaming, and hiking/trekking. This space will be a collective of projects that I design and develop which reflects my personal interests, and all that inspires me to create.</p>
-                </div>
-            <div class="footer"> 
-                    <section class="sub-wrapper">
-                        <div class="sub-content">
-                          <header>
-                            <h3>Join The Voyage</h3>
-                          </header>
-                          <footer>
-                            <input type="email" placeholder="Subscribe for updates">
-                            <button class="sub-button">Let's go</button>
-                          </footer>
+                <article class="blog-post">
+                    <header class="post-title">
+                        <h1>New Beginnings</h1>
+                    </header>
+                
+                    <section class="author-info">
+                        <img src="itsame.jpg" alt="Kamon's Avatar" class="Kamon-avatar">
+                        <div class="author-details">
+                            <h2 class="author-name">Kamon West</h2>
+                            <p class="author-title">front-end developer, Udacity</p>
+                            <p class="author-bio">I love all things automotive, hanging out with my wife and son, basketball, boxing, gaming, and hiking/trekking. </p>
                         </div>
-                      </section>
-                    <h5>
+                    </section>
+                
+                    <section class="social-sharing">
+                        <p>Share this post:</p>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=URL" target="_blank">LinkedIn</a>
+                    </section>
+                
+                    <div class="post-content">
+                        <blockquote cite="https://www.audible.com/blog/quotes-the-alchemist">
+                            There is only one way to learn... It's through action. Everything you need to know you have learned through your journey. <em>Paulo Coelho, <u>The Alchemist</u></em>
+                        </blockquote>
                         <p>
-                            KEEP YOUR HEAD TO THE SKY. BE CONFIDENT IN THE PATH YOU ARE LIGHTING ALONG THE VOYAGE TO GREATER SELF.
+                            Good day, good people! I am Kamon, a creative front-end developer. This marks our first stop on the UpTop Dev journey.
                         </p>
-                    </h5>
-                    <p>2024 UPTOP.dev</p>
+                        <p>
+                            This space will be a collective of projects that I design and develop which reflects my personal interests, learnings and new understandings, and all that inspires me to create.
+                        </p>
+                   </div>
+                </article>
+    
+            <div class="footer"> 
+                <section class="sub-wrapper">
+                    <div class="sub-content">
+                      <header>
+                        <h3>Join The Voyage</h3>
+                        <h4>Developing the mental one day at a time.</h4>
+                      </header>
+                      <footer>
+                        <input type="email" placeholder="Enter your email address">
+                        <button class="sub-button">Let's go</button>
+                      </footer>
+                    </div>
+                </section>
+                <h5>
+                    KEEP YOUR HEAD TO THE SKY. BE CONFIDENT IN THE PATH YOU ARE LIGHTING ALONG THE VOYAGE TO GREATER SELF.
+                </h5>
+                <p>2024 UPTOP.dev</p>
             </div>
+        </div>
     </body>
 </html>

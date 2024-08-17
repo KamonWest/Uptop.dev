@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica Neue'), local('HelveticaNeue-CondensedBlack'),
+    url('/System/Library/Fonts/HelveticaNeue.ttc') format("truetype");
+    font-weight: 400;
+    /* Correct font-weight of logo to helvetica neue condensed black */
+}
+
+.navbar .logo1 {
+    font-size: 1.5rem;
+    color: #3428ff;
+}
+
+.navbar .logo2 {
+    display: inline-block;
+}
+
+.navbar-links {
+    display: inline-block;
+    align-items: center;
+}
+
+.navbar-links ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-links ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.menu-icon {
+    display: none; /* Hide the hamburger menu icon initially */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+/* Move to left of header - Justify links to right */
+.logo1 {
+    font-weight: 900;
+    font-stretch: condensed;
+    font-size: 52px;
+    font-style: italic;
+}
+
+.logo2 {
+    background-color: #ff7a42;
+    font-size: 18px;
+    color: #f4f3ea;
+    margin-left: -5px;
+    border-radius: 15% / 30%;
+}
+
+.header-image {
+    width: 100%;
+    min-height: 368px; /* Min height for smaller screens */
+}
+
+.header-image img {
+    width: 100%;
+    min-height: 368px;
+    object-fit: cover;
+    border-radius: 10% / 20%;
+}
+
+.header {
+    grid-area: hd;
+    position: relative;
+    background-color: #f4f3ea;
+}
+
+.header-text {
+    color: #D7D7D5;
+    font-size: 1rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    position: absolute; /* Centered text overlay */
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

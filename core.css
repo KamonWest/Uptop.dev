@@ -1,0 +1,107 @@
+body, html {
+    background-color: #f4f3ea;
+    color: #3428ff;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.35;
+    text-align: center;
+}
+
+p {
+    font: 16px;
+    text-align: flex-start;
+
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://pixabay.com/illustrations/blue-higround-wallpaper-topography-8174206/);
+    background-size: cover; /* Cover the entire div area */
+    background-position: center; /* Center the image within the div */
+}
+
+.sidebar {
+    grid-column: 1 / 2; /* Sidebar takes the first column */
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    "hd hd hd" 
+    "sd main main" 
+    "sd main main" 
+    "ft ft ft"; /* row start/ column start/ row end/ column end */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    min-height: 100vh;
+    padding: 15px;
+}
+
+.header, .sidebar, .content, .footer {
+    background-color: #f4f3ea;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.content {
+    grid-column: 2 / 4; /* Content spans the remaining two columns */
+    display: grid;
+    color: #000;
+    width: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.blog-post-card {
+    background-color: #f4f3ea;
+    border: 2px solid #3428ff;
+    border-radius: 10px;
+    padding: 15px;
+    align-items: flex;
+}
+
+/* Center align images of header and content */
+
+.post-content, .post2-content, .post3-content {
+    border: 2px #3428ff solid;
+    border-radius: 15px;
+    padding: 0.5em;
+    margin: 0.5em
+}
+
+.post-title, .post2-title, .post3-title {
+    text-align: center;
+    text-decoration: underline;
+    font: italic small-caps bold 'Helvetica Neue', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .header-image {
+        min-height: 200px; /* Adjust height for smaller screens */
+    }
+
+    .container {
+        grid-template-columns: 1fr; /* Single column grid for smaller screens */
+    }
+
+    .content {
+        grid-template-columns: 1fr; /* Stack blog post cards vertically */
+    }
+
+    .menu-icon {
+        display: block; /* Show hamburger menu icon on smaller screens */
+    }
+
+    .navbar-links {
+        display: none; /* Hide navbar links initially on smaller screens */
+    }
+
+    .menu-toggle:checked + .menu-icon + .navbar-links {
+        display: flex;
+        flex-direction: column;
+    }
+}
