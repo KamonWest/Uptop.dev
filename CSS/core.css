@@ -1,0 +1,104 @@
+* {
+    scroll-behavior: smooth;
+    cursor: grab;
+  }
+
+body, html {
+    background-color: #f4f3ea;
+    color: #3428ff;
+    font-family: 'Helvetica', Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.35;
+    text-align: center;
+}
+
+p {
+    font: 16px;
+    text-align: flex-start;
+}
+
+.ubuntu-mono-regular {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.sidebar {
+    grid-column: 1 / 2; /* Sidebar takes the first column */
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    "hd hd hd" 
+    "sd main main" 
+    "sd main main" 
+    "ft ft ft"; /* row start/ column start/ row end/ column end */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    min-height: 100vh;
+    padding: 1em;
+}
+
+.header, .sidebar, .content, .footer {
+    background-color: #f4f3ea;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.content {
+    grid-column: 3 / 4; /* Content spans the remaining two columns */
+    display: grid;
+    color: #000;
+    max-width: 500px;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(autofill, minmax(350px, 1fr));
+    grid-gap: 10px;
+}
+
+.blog-post-card {
+    background-color: #f4f3ea;
+    border: 2px solid #3428ff;
+    border-radius: 10px;
+    padding: 0.5em;
+    align-items: flex;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Center align images of header and content */
+
+.post-content, .post2-content, .post3-content {
+    border: 2px #3428ff solid;
+    border-radius: 15px;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.post-title, .post2-title, .post3-title {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Helvetica Black Oblique';
+}
+
+.card2-image, .card3-image {
+    height: auto;
+    object-fit: contain;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card1-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

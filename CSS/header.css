@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Helvetica Black Oblique';
+    src: url('/Assets/Helvetica\ Black\ Oblique.otf') format('opentype'),
+    url('/Assets/HelveticaNeue.ttf') format('truetype');
+    font-weight: 700;
+    font-style: oblique;
+}
+
+.navbar .logo1 {
+    font-size: 1.5rem;
+    color: #3428ff;
+}
+
+.navbar .logo2 {
+    display: inline-block;
+}
+
+.navbar-links {
+    display: inline-block;
+    align-items: center;
+}
+
+.navbar-links ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-links ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.menu-icon {
+    display: none; /* Hide the hamburger menu icon initially */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+/* Keep left of header - Justify links to right */
+.logo1, .logo2 {
+    font-family: 'Helvetica Black Oblique';
+    font-weight: 900;
+    font-style: italic;
+}
+
+.logo1 {
+    font-size: 52px;
+}
+
+.logo2 {
+    background-color: #ff7a42;
+    font-size: 18px;
+    color: #f4f3ea;
+    margin-left: -5px;
+    border-radius: 15% / 30%;
+}
+
+.header {
+    grid-area: hd;
+    position: relative;
+    background-color: #f4f3ea;
+}
+
+.header-image {
+    width: 100%;
+    min-height: 200px; /* Min height for smaller screens */
+    position: relative;
+}
+
+.header-image img {
+    width: 100%;
+    min-height: 320px;
+    object-fit: cover;
+    border-radius: 10px 45px 25px;
+}
+.header-text {
+    color: #D7D7D5;
+    font-size: 1rem;
+    font-family: 'Helvetica', sans-serif;
+    position: relative; /* Centered text overlay */
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+figcaption {
+    color: #000; /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.3rem;
+    text-align: end;
+}

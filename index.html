@@ -2,47 +2,49 @@
     <html lang="en">
         <head>
             <meta charset="utf-8">
-            <title>UpTop</title>
+            <title>UpTop.dev</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="style.css">
-            <link href="/System/Library/Fonts/HelveticaNeue.ttc" rel="stylesheet">
+            <link rel="stylesheet" href="CSS/style.css">
+            <link rel="stylesheet" href="CSS/blogpost.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         </head>
-
-        <!-- Need to adjust post link and image links -->
 
         <!-- Import core css to blog css for post continuity -->
         <body>
-            <div class="container">
-                <div class="header">
-                    <nav class="navbar">
-                        <div class="logo1">UPTOP
-                            <div class="logo2">.dev</div>
-                        </div>
-                        <input type="checkbox" id="menu-toggle" class="menu-toggle">
-                        <label for="menu-toggle" class="menu-icon">
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                        </label>
-                        <div class="navbar-links">
-                            <ul>
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#search">Search</a></li>
-                                <li><a href="#subscribe">Subscribe</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                    <div class="header-image">
-                        <img src="https://images.pexels.com/photos/4328301/pexels-photo-4328301.jpeg?cs=srgb&dl=pexels-arthousestudio-4328301.jpg&fm=jpg&_gl=1*3sjzfv*_ga*NDg0MjEwMjUyLjE3MTg2NTg3Njk.*_ga_8JE65Q40S6*MTcyMTc0OTc1OC4zLjEuMTcyMTc1MDAwNy4wLjAuMA.." alt="LC80 in the dunes">
-                     <div>
-                        <p class="header-text">Travel, Trails, Tech, and self development.</p>
-                     </div>
+            <div class="header">
+                <nav class="navbar">
+                    <div class="logo1">UPTOP
+                        <div class="logo2">.dev</div>
                     </div>
+                    <!-- Checkbox opens navmenu -->
+                    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                    <label for="menu-toggle" class="menu-icon">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </label>
+                    <div class="navbar-links">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#search">Search</a></li>
+                            <li><a href="#subscribe">Subscribe</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="header-image">
+                    <img src="Assets/pexels-mikhail-nilov-6965508.jpg" alt="Aerial view of rice croplands">
+                 <div>
+                    <p class="header-text">Travel, Trails, Tech, and Self Development.</p>
+                 </div>
                 </div>
-        
+            </div>
+
+            <div class="container">
                 <aside class="sidebar">
                     <h2>Blog Posts</h2>
-                    <a href="post.html">
+                    <a href="/BlogPost/post.html">
                         Most Recent Post
                     </a>
                 </aside>
@@ -50,18 +52,18 @@
                 <div class="content">
                     <div class="blog-post-card">
                         <h3 class="post-title"><u>New Beginnings</u></h3>
-                        <div class="card-image">
-                            <img src="itsame.jpg" alt="my smiling face">
+                        <div class="card1-image">
+                            <img src="Assets/Itsame.jpeg" alt="Kamon's avatar" class="card1-image">
                         </div>
                         <p class="card-description">
-                            Good day, good people! I am Kamon, a creative front-end developer. This marks our first stop on the UpTop Dev journey.
+                            Good day, good people! I am Kamon, a creative front-end developer. This marks our first stop on the UpTop.dev journey.
                         </p>
-                        <a href="post.html" class="card-cta">Read More</a>
+                        <a href="/BlogPost/post.html" class="card-cta">Read More</a>
                     </div>
                     <div class="blog-post-card">
                         <h3 class="post2-title"><u>Open Air Open Road</u></h3>
-                        <div class="card-image">
-                            <img src=" " alt=" ">
+                        <div class="card2-image">
+                            <img src="Assets/pexels-sebastian-palomino-933481-1955134.jpg" alt="open mountain roads" class="card2-image">
                         </div>
                         <p class="card-description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae cumque adipisci velit voluptatibus? Molestias voluptates officiis earum.
@@ -70,8 +72,8 @@
                     </div>
                     <div class="blog-post-card">
                         <h3 class="post3-title"><u>Can We Get Much Higher?</u></h3>
-                        <div class="card-image">
-                            <img src=" " alt=" ">
+                        <div class="card3-image">
+                            <img src="Assets/stargazing.png" alt="stargazing" class="card3-image">
                         </div>
                         <p class="card-description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae cumque adipisci velit voluptatibus? Molestias voluptates officiis earum.
@@ -85,10 +87,10 @@
                         <div class="sub-content">
                           <header>
                             <h3>Join The Voyage</h3>
-                            <h4>Developing the mental one day at a time.</h4>
+                            <h4>Continuously developing self each day.</h4>
                           </header>
                           <footer>
-                            <input type="email" placeholder="Enter your email address">
+                            <input id="Subscribe" type="email" placeholder="Enter your email address">
                             <button class="sub-button">Let's go</button>
                           </footer>
                         </div>
