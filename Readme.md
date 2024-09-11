@@ -13,12 +13,12 @@ Technologies Used:
 - CSS
 
 Structure: 
-/index.html           - Main homepage
-/blog/index.html      - Blog listing page
-/blog/post.html       - Individual blog posts
-/gallery/index.html   - Photo gallery
-/assets/css/styles.css - CSS styling for all pages
-/assets/images/       - Folder containing images and assets
+/index.html             - Main homepage
+/blog/index.html        - Blog listing page
+/blog/post.html         - Individual blog posts
+/gallery/index.html     - Photo gallery
+/assets/css/styles.css  - CSS styling for all pages
+/assets/images/         - Folder containing images and assets
 
 Future Updates
 - JavaScript integration for dynamic content and interactivity.
