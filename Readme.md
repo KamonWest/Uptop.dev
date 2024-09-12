@@ -1,5 +1,5 @@
 # Uptop.dev Blog
-UpTop.dev is a static blog website built using only HTML and CSS, which features a minimalist design focused on ease of navigation and responsive layout. 
+UpTop.dev is a blog website built using only HTML and CSS, which features a minimalist design focused on ease of navigation and responsive layout. 
 
 Features:
 - Photo Gallery: A gallery section showcasing a collection of images, styled to be responsive across devices.
