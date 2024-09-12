@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Helvetica Black Oblique';
-    src: url('/Assets/Helvetica\ Black\ Oblique.otf') format('opentype'),
-    url('/Assets/HelveticaNeue.ttf') format('truetype');
+    src: url('../Assets/Helvetica\ Black\ Oblique.otf') format('opentype');
     font-weight: 700;
     font-style: oblique;
 }
@@ -73,8 +72,10 @@
 
 .header-image {
     width: 100%;
-    min-height: 200px; /* Min height for smaller screens */
+    min-height: 320px; /* Min height for smaller screens */
+    object-fit: cover;
     position: relative;
+    border-radius: 10px 45px 25px;
 }
 
 .header-image img {
@@ -83,6 +84,7 @@
     object-fit: cover;
     border-radius: 10px 45px 25px;
 }
+
 .header-text {
     color: #D7D7D5;
     font-size: 1rem;
@@ -96,6 +98,6 @@
 figcaption {
     color: #000; /* Fallback for older browsers */
     color: rgba(0, 0, 0, 0.5);
-    font-size: 0.3rem;
+    font-size: 0.4rem;
     text-align: end;
 }

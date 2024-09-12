@@ -1,9 +1,0 @@
-@import url(/CSS/header.css);
-@import url(/CSS/core.css);
-@import url(/CSS/footer.css);
-@import url(/CSS/responsive.css);
-
-* {
-    scroll-behavior: smooth;
-    cursor: grab;
-  }

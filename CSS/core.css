@@ -1,7 +1,3 @@
-* {
-    scroll-behavior: smooth;
-    cursor: grab;
-  }
 
 body, html {
     background-color: #f4f3ea;
@@ -12,6 +8,10 @@ body, html {
     font-size: 16px;
     line-height: 1.35;
     text-align: center;
+}
+
+body {
+    margin: 5px;
 }
 
 p {
@@ -27,6 +27,7 @@ p {
   
 .sidebar {
     grid-column: 1 / 2; /* Sidebar takes the first column */
+    font-size: medium;
 }
 
 .container {
@@ -46,6 +47,10 @@ p {
     background-color: #f4f3ea;
     padding: 0.5em;
     border-radius: 10px;
+}
+
+.header {
+    max-height: fit-content;
 }
 
 .content {

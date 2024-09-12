@@ -2,7 +2,8 @@
     .header-image {
         width: 100%;
         min-height: 200px; /* Adjust height for smaller screens */
-        padding: 0.5em;
+        padding: 0.125em;
+        margin: 0.25em;
     }
 
     .header-text {
