@@ -24,3 +24,10 @@ Future Updates
 - JavaScript integration for dynamic content and interactivity.
 - Blog post CMS for easier updates
 - Dark mode theme option
+
+Installation:
+1. Clone the repository: Open your terminal and run the following command: git clone https://github.com/KamonWest/Uptop.dev.git
+
+2. Navigate to project directory: cd Uptop.dev
+
+3. View in the browser: Open the index.html file directly in your browser by right-clicking and selecting "Open with" or by dragging the file into your browser window.
