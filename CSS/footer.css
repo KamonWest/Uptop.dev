@@ -30,7 +30,7 @@
   /* End of Subscribe form */
 
   .footer {
-    grid-column: span 3; /* Footer spans all three columns */
+    grid-column: span 4; /* Footer spans all four columns */
     grid-area: ft;
     text-align: center;
     margin-top: 15px;

@@ -33,11 +33,11 @@ p {
 .container {
     display: grid;
     grid-template-areas: 
-    "hd hd hd" 
-    "sd main main" 
-    "sd main main" 
-    "ft ft ft"; /* row start/ column start/ row end/ column end */
-    grid-template-columns: repeat(3, 1fr);
+    "hd hd hd hd" 
+    "sd main main main" 
+    "sd main main main" 
+    "ft ft ft ft"; /* row start/ column start/ row end/ column end */
+    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
     min-height: 100vh;
     padding: 1em;
@@ -54,11 +54,11 @@ p {
 }
 
 .content {
-    grid-column: 3 / 4; /* Content spans the remaining two columns */
+    grid-column: 2 / 4; /* Content spans the remaining two columns */
     display: grid;
     color: #000;
     max-width: 500px;
-    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     grid-template-columns: repeat(autofill, minmax(350px, 1fr));
     grid-gap: 10px;
 }
