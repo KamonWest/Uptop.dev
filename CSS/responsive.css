@@ -1,4 +1,46 @@
 @media screen and (min-width: 310px) and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      align-items: flex-start;
+      position: fixed;
+      top: 0;
+      right: -250px;
+      width: 250px;
+      background-color: #fff;
+      padding: 1em;
+      transition: right 0.3s ease-in-out;
+    }
+  
+    .navbar-links.active {
+      right: 0; 
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .menu-toggle:checked + .menu-icon + .navbar-links {
+      right: 0;
+    }  
+    
+    .navbar-links ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links li {
+        margin-bottom: 0.5em;
+    }
+    
     .header-image {
         width: 100%;
         min-height: 200px; /* Min height for smaller screens */
@@ -8,7 +50,7 @@
 
     .header-text {
         color: #D7D7D5;
-        font-size: 0.8rem;
+        font-size: 0.69rem;
         font-family: 'Helvetica Black Oblique', sans-serif;
         position: absolute; /* Centered text overlay */
         top: 85%;
@@ -23,22 +65,15 @@
     .content {
         grid-template-columns: 1fr; /* Stack blog post cards vertically */
     }
+  }
 
-    .menu-icon {
-        display: block; /* Show hamburger menu icon on smaller screens */
-    }
 
-    .navbar-links {
-        display: none; /* Hide navbar links initially on smaller screens */
-    }
-
+@media screen and (min-width: 768px) and (max-width: 1880px){
     .menu-toggle:checked + .menu-icon + .navbar-links {
         display: flex;
         flex-direction: column;
     }
-}
 
-@media screen and (min-width: 768px) and (max-width: 1880px){
     .header-image {
         width: 100%;
         min-height: 200px; /* min height for smaller screens */
@@ -72,11 +107,6 @@
 
     .container {
         grid-template-columns: repeat(4, 1fr); /* four column grid for larger screens */
-    }
-
-    .menu-toggle:checked + .menu-icon + .navbar-links {
-        display: flex;
-        flex-direction: column;
     }
 
     .footer {
