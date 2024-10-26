@@ -73,21 +73,20 @@
         font-family: 'Helvetica Black Oblique';
         font-weight: 900;
         font-style: italic;
+        margin-right: auto;
     }
     
     .logo1 {
         font-size: 3.5rem;
         color: #3428ff;  
-        flex: 1; 
     }
     
     .logo2 {
         background-color: #ff7a42;
         font-size: 1.125rem;
         color: #f4f3ea;
-        margin-left: -5px;
+        /* margin-left: -5px; */
         border-radius: 15% / 30%;
-        flex: 1;
     }
     
     .menu-toggle:checked + .menu-icon + .navbar-links {
