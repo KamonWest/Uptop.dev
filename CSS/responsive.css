@@ -1,3 +1,25 @@
+/* Media queries and breakpoints for responsive design */
+
+/* Media queries for .logo1 and .logo2 */
+@media (max-width: 768px) {
+    .logo1, .logo2 {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .logo1, .logo2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .logo1, .logo2 {
+        font-size: 2rem;
+    }
+}
+
+/* Media queries for .navbar and .navbar-links */
 @media screen and (min-width: 310px) and (max-width: 768px) {
     .navbar {
       flex-direction: column;
@@ -40,6 +62,8 @@
     .navbar-links li {
         margin-bottom: 0.5em;
     }
+
+    /* Media queries for .header-image */
     
     .header-image {
         width: 100%;
@@ -127,21 +151,5 @@
 
     .container {
         grid-template-columns: repeat(4, 1fr); /* four column grid for larger screens */
-    }
-
-    .footer {
-        grid-column: span 4; /* Footer spans all four columns */
-        grid-area: ft;
-        text-align: center;
-        margin-top: 15px;
-        padding: 10px;
-        font-size: 12px;
-        line-height: 21.6px;
-        letter-spacing: 0.3px;
-        text-align: center;
-        justify-content: center;
-        position: relative;
-        color: #3428ff;
-        background-color: #D7D7D5;
     }
 }
