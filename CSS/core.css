@@ -65,7 +65,7 @@ p {
 
 .blog-post-card {
     background-color: #f4f3ea;
-    border: 2px solid #3428ff;
+    border: 3px solid #3428ff;
     border-radius: 10px;
     padding: 0.5em;
     align-items: flex;
@@ -77,7 +77,7 @@ p {
 /* Center align images of header and content */
 
 .post-content, .post2-content, .post3-content {
-    border: 2px #3428ff solid;
+    border: 3px #3428ff solid;
     border-radius: 15px;
     padding: 0.5em;
     margin: 0.5em;
