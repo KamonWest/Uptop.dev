@@ -1,6 +1,6 @@
 
 body, html {
-    background-color: #f4f3ea;
+    background-color: #eae8d7;
     color: #3428ff;
     font-family: 'Helvetica', Helvetica, sans-serif;
     font-weight: normal;
@@ -44,7 +44,7 @@ p {
 }
 
 .header, .sidebar, .content, .footer {
-    background-color: #f4f3ea;
+    background-color: #eae8d7;
     padding: 0.5em;
     border-radius: 10px;
 }
@@ -64,7 +64,7 @@ p {
 }
 
 .blog-post-card {
-    background-color: #f4f3ea;
+    background-color: #eae8d7;
     border: 3px solid #3428ff;
     box-shadow: 0 8px 6px -6px #000;
     border-radius: 10px;
