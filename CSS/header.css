@@ -10,21 +10,26 @@
     font-family: 'Helvetica Black Oblique';
     font-weight: 900;
     font-style: italic;
-     /* flex-basis: 20%; */
 }
 
 .logo1 {
     font-size: 3.5rem;
-    color: #3428ff;  
+    color: #3428ff;
+    order: 1;
 }
 
 .logo2 {
     background-color: #ff7a42;
     font-size: 1.125rem;
     color: #f4f3ea;
-    margin-left: auto;
-    border-radius: 15% / 30%;
+    order: 0;
+    margin-left: -0.5rem;
+    padding: 0.2rem;
+    top: -0.5rem;
+    left: 0.5rem;
+    border-radius: 20% / 40%;
 }
+
 
 .navbar .logo1 {
     font-size: 1.5rem;
@@ -57,7 +62,7 @@
     right: 1rem;
     font-size: 1.5rem;
     color: #3428ff;
-    cursor: pointer;
+    cursor: grab;
     /* z-index: 1000; */
 }
 
@@ -69,6 +74,7 @@
     align-items: center;
     padding: 0 auto;
     margin: 0;
+    cursor: grab;
 }
 
 .navbar-links ul {
@@ -77,7 +83,7 @@
     margin: 0;
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 0.63rem;
 }
 
 .navbar-links a {
@@ -95,7 +101,7 @@
 .header-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2em;
+    padding: 0 auto;
     background-color: #f4f3ea;
     display: flex;
     justify-content: center;

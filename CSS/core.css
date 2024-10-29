@@ -61,6 +61,7 @@ p {
     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     grid-template-columns: repeat(autofill, minmax(350px, 1fr));
     grid-gap: 10px;
+    /* box-shadow: 0 8px 6px -6px #000; */
 }
 
 .blog-post-card {
@@ -85,6 +86,7 @@ p {
     font-family: "Ubuntu Mono", monospace;
     font-weight: 400;
     font-style: normal;
+    box-shadow: 0 8px 6px -6px #000;
 }
 
 .post-title, .post2-title, .post3-title {
