@@ -43,7 +43,7 @@ p {
     padding: 1em;
 }
 
-.header, .sidebar, .content, .footer {
+.header, .sidebar, .content, .gallery, .gallery-container, .footer {
     background-color: #eae8d7;
     padding: 0.5em;
     border-radius: 10px;
@@ -56,11 +56,10 @@ p {
 .content {
     grid-column: 2 / 4; /* Content spans the remaining two columns */
     display: grid;
+    grid-template-columns: repeat(autofill, minmax(350px, 1fr));
+    grid-gap: 10px;    
     color: #000;
     max-width: 500px;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-    grid-template-columns: repeat(autofill, minmax(350px, 1fr));
-    grid-gap: 10px;
     /* box-shadow: 0 8px 6px -6px #000; */
 }
 
