@@ -8,3 +8,10 @@
     scroll-behavior: smooth;
     cursor: pointer;
   }
+
+/* styles.css */
+
+:has(.gallery-page) .gallery-container {
+  grid-column: 1 / -1; /* Take up full width on gallery.html */
+  justify-self: center; /* Center horizontally on gallery.html */
+}

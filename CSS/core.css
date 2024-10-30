@@ -38,7 +38,7 @@ p {
     "sd main main main" 
     "ft ft ft ft"; /* row start/ column start/ row end/ column end */
     grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+    gap: 5px;
     min-height: 100vh;
     padding: 1em;
 }
