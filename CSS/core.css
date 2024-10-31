@@ -34,13 +34,16 @@ p {
     display: grid;
     grid-template-areas: 
     "hd hd hd hd" 
-    "sd main main main" 
-    "sd main main main" 
+    "sd main main main"
+    "sd main main main"
     "ft ft ft ft"; /* row start/ column start/ row end/ column end */
-    grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(1, 1fr); 
+    grid-gap: 10px;
+    grid-row-gap: 0;
     min-height: 100vh;
     padding: 1em;
+    overflow: hidden;
 }
 
 .header, .sidebar, .content, .gallery, .gallery-container, .footer {
@@ -57,7 +60,7 @@ p {
     grid-column: 2 / 4; /* Content spans the remaining two columns */
     display: grid;
     grid-template-columns: repeat(autofill, minmax(350px, 1fr));
-    grid-gap: 10px;    
+    grid-gap: 10px;  
     color: #000;
     max-width: 500px;
     /* box-shadow: 0 8px 6px -6px #000; */

@@ -4,11 +4,6 @@
   justify-self: center; /* Center horizontally on gallery.html */
 }
 
-.container {
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-}
-
 .gallery-container {
   grid-column: 2 / 4; /* Gallery takes the second and fourth columns */
   height: auto;
