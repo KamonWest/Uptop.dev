@@ -22,8 +22,9 @@ Structure:
 
 Future Updates
 - JavaScript integration for dynamic content and interactivity.
-- Blog post CMS for easier updates
+- Email newsletter
 - Dark mode theme option
+- RSS feed
 
 Installation:
 1. Clone the repository: Open your terminal and run the following command: git clone https://github.com/KamonWest/Uptop.dev.git
