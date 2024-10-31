@@ -5,6 +5,10 @@
     font-style: oblique;
 }
 
+.logo {
+    display: flex;
+}
+
 /* Keep left of header - Justify links to right */
 .logo1, .logo2 {
     font-family: 'Helvetica Black Oblique';
@@ -12,36 +16,26 @@
     font-style: italic;
 }
 
-.logo1 {
-    font-size: 3.5rem;
-    color: #3428ff;
-    order: 1;
-}
-
 .logo2 {
     background-color: #ff7a42;
     font-size: 1.125rem;
     color: #f4f3ea;
-    order: 0;
-    margin-left: -0.5rem;
+    margin-left: auto;
     padding: 0.125rem;
     top: -0.5rem;
     left: 0.5rem;
     border-radius: 20% / 40%;
 }
 
-
 .navbar .logo1 {
     font-size: 1.5rem;
     color: #3428ff;
 }
 
-.navbar .logo2 {
-    display: flex;
-}
-
 .navbar {
     display: flex;
+    flex-direction: row;
+    color: #3428ff;
     background-color: #d7d0ac; /* alternate #d7d7d5 dark moss green */
     box-shadow: inset 0 8px 6px -6px #000; /* border shadow for navbar */
     border-radius: 12px;

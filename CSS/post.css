@@ -3,3 +3,6 @@
 @import url("footer.css");
 @import url("responsive.css");
 
+:has(post.css) .post-content, .post2-content, .post3-content {
+    font-size: clamp(1rem, 2.5vw + .25rem, 1.5rem);
+}
