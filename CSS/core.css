@@ -39,8 +39,7 @@ p {
     "ft ft ft ft"; /* row start/ column start/ row end/ column end */
     grid-template-columns: repeat(4, minmax(0, 1fr));
     grid-template-rows: repeat(1, 1fr); 
-    grid-gap: 10px;
-    grid-row-gap: 0;
+    grid-gap: 10px; 
     min-height: 100vh;
     padding: 1em;
     overflow: hidden;

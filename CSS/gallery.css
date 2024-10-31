@@ -1,7 +1,5 @@
-:has(.gallery-page) .gallery-container {
-  grid-column: 1 / -1; /* Take up full width on gallery.html */
-  grid-area: 1 / 1 / 1 / 1;
-  justify-self: center; /* Center horizontally on gallery.html */
+.gallery-page .gallery-container {
+  grid-area: 1 / 2 / 1 / 4 !important; /* Center the gallery in the grid */
 }
 
 .gallery-container {
@@ -10,7 +8,7 @@
   grid-area: 1 / 4 / 1 / 4; /* start at row 1, column 4, end at row 1, column 4 */
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0;
   background-color: #eae8d7;
   border: 3px solid #000;
   border-radius: 10px;
