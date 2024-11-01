@@ -1,3 +1,10 @@
+:root {
+    --primary-color: #3428ff;
+    --secondary-color: #ff7a42;
+    --background-color: #d7d0ac;
+    --white: #fff;
+    --black: #000;
+}
 
 body, html {
     background-color: #eae8d7;
