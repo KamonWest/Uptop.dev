@@ -55,7 +55,7 @@
     top: 0.75rem;
     right: 1rem;
     font-size: 1.5rem;
-    color: #3428ff;
+    color: var(--black);
     cursor: grab;
     /* z-index: 1000; */
 }
