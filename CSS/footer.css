@@ -7,11 +7,13 @@
   
   .sub-content {
     background: #d7d0ac;
+    font-family: 'Helvetica Black Oblique';
     border: 3px solid var(--secondary-color);
     box-shadow: 0 8px 6px -6px var(--black); /* border shadow for subscribe box */
+    display: flex;
     color: #000;
-    padding: 1.5em;
-    margin: 1.5em;
+    padding: 1em;
+    margin: 1em;
     max-width: 100%;
     min-width: 200px;
     border-radius: 15px;
@@ -21,12 +23,16 @@
     place-items: center;
   }
   
-  .input .sub-button {
-    margin: -1.5em;
+  .input, .sub-button {
+    margin: 0 auto;
+  }
+
+  .input {
+    background-color: var(--white);
+    color: var(--primary-color);
   }
 
   .sub-button {
-    display: inline-flex;
     border-radius: 12px;
     background-color: var(--white);
     color: var(--primary-color);
