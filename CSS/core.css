@@ -19,6 +19,7 @@ body, html {
 
 body {
     margin: 5px;
+    /* background-blend-mode: darken; */
 }
 
 p {
@@ -59,6 +60,14 @@ p {
     border-radius: 10px;
 }
 
+.navbar, .sidebar, .gallery-container, .footer {
+    background-image: url('../Assets/abstract_map_background_with_topography_design_1105.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 .header {
     max-height: fit-content;
 }
@@ -66,6 +75,7 @@ p {
 .content {
     grid-column: 2 / 4; /* Content spans the remaining two columns */
     display: grid;
+    justify-self: center;
     grid-template-columns: repeat(autofill, minmax(350px, 1fr));
     grid-gap: 10px;  
     color: #000;
