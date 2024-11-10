@@ -62,11 +62,10 @@ p {
 }
 
 .navbar, .sidebar, .gallery-container, .footer {
-    background-image: url('../Assets/abstract_map_background_with_topography_design_1105.jpg');
+    background-image: url('../Assets/abstract_map_background_with_topography_design_1105.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .header {
@@ -82,7 +81,6 @@ p {
     color: #000;
     background-color: none;
     max-width: 500px;
-    /* box-shadow: 0 8px 6px -6px #000; */
 }
 
 .blog-post-card {
