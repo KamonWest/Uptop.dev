@@ -10,6 +10,14 @@
   }
 
 /* styles.css */
+:root {
+  --primary-color: #3428ff;
+  --secondary-color: #ff7a42;
+  --background-color: #eae8d7;
+  --secondary-background-color: #d7d0ac;
+  --white: #fff;
+  --black: #000;
+}
 
 :has(.gallery-page) .gallery-container {
   grid-column: 1 / -1; /* Take up full width on gallery.html */

@@ -6,7 +6,7 @@
   }
   
   .sub-content {
-    background: #d7d0ac;
+    background: var(--background-color);
     font-family: 'Helvetica Black Oblique';
     border: 3px solid var(--secondary-color);
     box-shadow: 0 8px 6px -6px var(--black); /* border shadow for subscribe box */
@@ -43,7 +43,7 @@
     grid-column: span 4; /* Footer spans all four columns */
     min-height: 50px;
     margin-top: 15px;
-    background-color: var(--background-color);
+    background-color: var(--secondary-background-color);
     color: var(--primary-color);
     box-shadow: inset 0 8px 6px -6px #000; /* border shadow for subscribe box */
     grid-area: ft;
