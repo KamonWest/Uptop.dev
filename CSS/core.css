@@ -79,12 +79,12 @@ p {
     grid-template-columns: repeat(autofill, minmax(350px, 1fr));
     grid-gap: 10px;  
     color: #000;
-    background-color: none;
+    background-color: var(--background-color);
     max-width: 500px;
 }
 
 .blog-post-card {
-    border: 3px solid #3428ff;
+    border: 2px solid #3428ff;
     box-shadow: 0 8px 6px -6px #000;
     border-radius: 10px;
     padding: 0.5em;
