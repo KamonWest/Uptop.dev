@@ -15,7 +15,6 @@
   margin: 0 auto;
   padding: 0.5em;
   background-color: none;
-  /* border: 3px solid #000; */
   border-radius: 10px;
   box-shadow: inset 0 8px 6px -6px #000;
 }
@@ -29,7 +28,7 @@
 }
 
 .gallery-item {
-  width: calc(33.33% - 20px);
+  width: calc(100% - 20px); /* Adjusted width */
   margin: 10px;
   border: 1px solid #eae8d7;
   border-radius: 10px;
@@ -39,12 +38,12 @@
 .gallery-item img {
   width: 100%;
   height: 150px;
-  object-fit: cover;
-  transition: transform 0.2s ease-in-out;
+  object-fit: cover; /* Maintain aspect ratio */
+  transition: transform 0.2s ease-in-out; /* Slight zoom transition effect */
 }
 
 .gallery-item img:hover {
-  transform: scale(1.1);
+  transform: scale(1.1); /* Zoom in on hover transition effect */
 }
 
 /* Responsive styles */
