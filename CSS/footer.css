@@ -8,7 +8,7 @@
   .sub-content {
     background: var(--background-color);
     font-family: 'Helvetica Black Oblique';
-    border: 3px solid var(--secondary-color);
+    border: 2.5px solid var(--secondary-color);
     box-shadow: 0 8px 6px -6px var(--black); /* border shadow for subscribe box */
     display: flex;
     color: #000;
@@ -58,7 +58,7 @@
 }
 
   .footer h5 {
-    margin: 20px 0 10px;
+    margin: 20px -10px 10px;
   }
 
   .footer p {
