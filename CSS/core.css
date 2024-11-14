@@ -90,7 +90,7 @@ p {
     border-radius: 10px;
     padding: 0.5em;
     align-items: flex;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -102,7 +102,7 @@ p {
     border-radius: 15px;
     padding: 0.5em;
     margin: 0.5em;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     box-shadow: 0 8px 6px -6px #000;
