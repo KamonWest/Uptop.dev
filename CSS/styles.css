@@ -9,6 +9,27 @@
     cursor: pointer;
   }
 
+@font-face {
+  font-family: 'Monserrat Bold';
+  src: url('../Assets/Helvetica\ Black\ Oblique.otf') format('opentype');
+  font-weight: 700;
+  font-style: bold italic;
+}
+
+.montserrat-bold700 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold italic;
+}
+
+.inter-700 {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* styles.css */
 :root {
   --primary-color: #3428ff;
@@ -17,9 +38,4 @@
   --secondary-background-color: #d7d0ac;
   --white: #fff;
   --black: #000;
-}
-
-:has(.gallery-page) .gallery-container {
-  grid-column: 1 / -1; /* Take up full width on gallery.html */
-  justify-self: center; /* Center horizontally on gallery.html */
 }
