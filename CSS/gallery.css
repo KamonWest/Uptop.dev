@@ -46,6 +46,13 @@
   transform: scale(1.1); /* Zoom in on hover transition effect */
 }
 
+figcaption {
+  color: #000; /* Fallback for older browsers */
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.75rem;
+  text-align: end;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
   .gallery-item {
