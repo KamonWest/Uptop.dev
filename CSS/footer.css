@@ -8,7 +8,6 @@
   
   .sub-content {
     background: var(--background-color);
-    font-family: 'Helvetica Black Oblique';
     border: 2.5px solid var(--secondary-color);
     box-shadow: 0 8px 6px -6px var(--black); /* border shadow for subscribe box */
     display: flex;
@@ -23,6 +22,14 @@
     text-align: center;
     place-items: center;
   }
+
+  .sub-header h3 {
+    font-family: 'Monsterrat Bold', sans-serif;
+    margin: 5px auto;
+    padding: 20px;
+    font-weight: 800;
+    font-style: italic;
+  }
   
   .input, .sub-button {
     margin: 0 auto;
@@ -31,9 +38,13 @@
   .input {
     background-color: var(--white);
     color: var(--primary-color);
+    font-family: 'Inter', sans-serif;
   }
 
   .sub-button {
+    font-family: 'Monsterrat Bold', sans-serif;
+    font-weight: 800;
+    font-style: italic;
     border-radius: 12px;
     background-color: var(--white);
     color: var(--primary-color);
@@ -68,5 +79,6 @@
 
   .footer p {
     margin-top: 0 0 10px;
+    font-weight: 500;
   }
 

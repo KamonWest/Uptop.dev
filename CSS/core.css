@@ -10,7 +10,7 @@
 body, html {
     background-color: var(--background-color);
     color: #3428ff;
-    font-family: 'Helvetica', Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 16px;
@@ -28,8 +28,8 @@ p {
     text-align: flex-start;
 }
 
-.ubuntu-mono-regular {
-    font-family: "Ubuntu Mono", monospace;
+.content {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
@@ -64,13 +64,16 @@ p {
 
 .navbar, .sidebar, .gallery-container, .footer {
     background-image: url('../Assets/abstract_map_background_with_topography_design_1105.png');
-    background-size: cover;
+    background-size: cover; /* Cover the entire container */
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.header {
-    max-height: fit-content;
+
+.h1, .h3, .h4, .h5 {
+    font-family: 'Monsterrat Bold', sans-serif;
+    font-weight: 800;
+    /* font-style: italic; */
 }
 
 .content {
@@ -111,7 +114,9 @@ p {
 .post-title, .post2-title, .post3-title {
     text-align: center;
     text-decoration: underline;
-    font-family: 'Helvetica Black Oblique';
+    font-family: 'Monsterrat Bold', sans-serif;
+    font-weight: 800;
+    font-style: italic;
 }
 
 .card2-image, .card3-image {
