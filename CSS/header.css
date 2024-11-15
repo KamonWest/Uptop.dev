@@ -15,24 +15,22 @@
     font-style: italic;
 }
 
-.logo1 {
+.logo .logo1 {
     font-weight: 900;
 }
 
 .logo2 {
-    background-color: #ff7a42;
-    font-size: 1.125rem;
-    color: #f4f3ea;
+    font-size: 1.25rem;
+    color: var(--secondary-color);
     margin-left: auto;
-    padding: 0.125rem;
+    padding: 0.45em;
     position: relative;
-    top: 4px;
-    left: 2px;
-    border-radius: 20% / 40%;
+    top: 8px;
+    left: -8px;
 }
 
 .navbar .logo1 {
-    font-size: 2rem;
+    font-size: 2.25rem;
     color: #3428ff;
 }
 
@@ -104,7 +102,8 @@
 }
 
 .header-container {
-    max-width: 1200px;
+    max-width: 1340px;
+    max-height: 600px;
     height: 90vh;
     margin: 0 auto;
     padding: 0 auto;
