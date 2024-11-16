@@ -1,8 +1,8 @@
 :root {
     --primary-color: #3428ff;
     --secondary-color: #ff7a42;
-    --background-color: #eae8d7;
-    --secondary-background-color: #d7d0ac;
+    --background-color: #C4BCA9;
+    --secondary-background-color: #C4B192;
     --white: #fff;
     --black: #000;
 }
@@ -20,7 +20,9 @@ body, html {
 
 body {
     margin: 5px;
-    /* background-blend-mode: darken; */
+    background-color: var(--background-color);
+    padding: 0.5em;
+    border-radius: 10px;
 }
 
 p {
@@ -56,7 +58,7 @@ p {
 }
 
 
-.header, .sidebar, .content, .gallery, .gallery-container, .footer {
+.sidebar, .content, .gallery, .gallery-container, .footer {
     background-color: var(--secondary-background-color);
     padding: 0.5em;
     border-radius: 10px;

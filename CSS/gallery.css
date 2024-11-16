@@ -1,11 +1,7 @@
 :has(.gallery-page) .gallery-container {
   grid-column: 1 / -1; /* Take up full width on gallery.html */
-  grid-area: 1 / 4 / 1 / 4; /* start at row 1, column 4, end at row 1, column 4 */
+  grid-area: 1 / 2 / 1 / 4; /* start at row 1, column 2, end at row 1, column 4 */
   justify-self: center; /* Center horizontally on gallery.html */
-}
-
-.gallery-page .gallery-container {
-  grid-area: 1 / 2 / 1 / 4 !important; /* Center the gallery in the grid */
 }
 
 .gallery-container {
@@ -21,7 +17,6 @@
 
 .gallery {
   display: flex;
-  background-color: none;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
