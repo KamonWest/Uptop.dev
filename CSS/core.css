@@ -1,15 +1,15 @@
 :root {
-    --primary-color: #3428ff;
-    --secondary-color: #ff7a42;
-    --background-color: #C4BCA9;
-    --secondary-background-color: #C4B192;
+    --primary-color: #00449C; /* Cobalt Blue */ /* Alt #3428ff Azul */
+    --secondary-color: #F55F14; /* Orange Pantone */ /* Alt #ff540A Aero Orange */
+    --background-color: #C4BCA9; /* Dune Tan */
+    --secondary-background-color: #C4B192; /* Khaki */
     --white: #fff;
-    --black: #000;
+    --black: #343332;
 }
 
 body, html {
     background-color: var(--background-color);
-    color: #3428ff;
+    color: var(--primary-color);
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -20,7 +20,6 @@ body, html {
 
 body {
     margin: 5px;
-    background-color: var(--background-color);
     padding: 0.5em;
     border-radius: 10px;
 }
@@ -96,7 +95,7 @@ p {
 }
 
 .blog-post-card {
-    border: 2.5px solid #3428ff;
+    border: 2.5px solid var(--primary-color);
     box-shadow: 0 8px 6px -6px #000;
     border-radius: 10px;
     padding: 0.5em;
@@ -109,7 +108,7 @@ p {
 /* Center align images of header and content */
 
 .post-content, .post2-content, .post3-content {
-    border: 3px #3428ff solid;
+    border: 3px var(--primary-color) solid;
     border-radius: 15px;
     padding: 0.5em;
     margin: 0.5em;
