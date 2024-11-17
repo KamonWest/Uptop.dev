@@ -33,7 +33,7 @@
       top: 0;
       right: -250px;
       width: 250px;
-      background-color: #eae8d7;
+      background-color: var(--secondary-background-color);
       padding: 1em;
       transition: right 0.3s ease-in-out;
     }
@@ -73,7 +73,7 @@
     }
 
     .header-text {
-        color: #D7D7D5;
+        color: var(--white);
         font-size: 0.69rem;
         font-family: 'Montserrat Bold', sans-serif;
         position: absolute; /* Centered text overlay */
@@ -116,11 +116,11 @@
     .header {
         grid-area: hd;
         position: relative;
-        background-color: #eae8d7;
+        background-color: var(--background-color);
     }
     
     .header-text {
-        color: #D7D7D5;
+        color: var(--white);
         font-size: 1rem;
         font-family: 'Montserrat Bold', sans-serif;
         position: absolute; /* Centered text overlay */
