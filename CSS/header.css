@@ -37,8 +37,7 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    color: var(--secondary-color);
-    background-color: var(--secondary-background-color); /* alternate #d7d7d5 dark moss green */
+    background-color: var(--secondary-background-color); 
     box-shadow: inset 0 8px 6px -6px #000; /* border shadow for navbar */
     border-radius: 12px;
     align-items: center;
