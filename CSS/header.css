@@ -7,18 +7,20 @@
 
 .logo {
     display: flex;
-}
-
-/* Keep left of header - Justify links to right */
-.logo {
     font-family: 'Montserrat Bold', sans-serif;
     font-style: italic;
 }
 
-.logo .logo1 {
-    font-weight: 900;
+/* Keep left of header - Justify links to right */
+.logo1 {
+    font-family: 'Montserrat ExtraBold', sans-serif;
+    font-style: italic;
 }
 
+.navbar .logo1 {
+    font-size: 2.25rem;
+    color: var(--primary-color);
+}
 .logo2 {
     font-size: 1.25rem;
     color: var(--secondary-color);
@@ -27,11 +29,6 @@
     position: relative;
     top: 8px;
     left: -8px;
-}
-
-.navbar .logo1 {
-    font-size: 2.25rem;
-    color: var(--primary-color);
 }
 
 .navbar {
