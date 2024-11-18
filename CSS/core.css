@@ -89,7 +89,7 @@ p {
     justify-self: center;
     grid-template-columns: repeat(autofill, minmax(350px, 1fr));
     grid-gap: 10px;  
-    color: #000;
+    color: var(--black);
     background-color: var(--background-color);
     max-width: 500px;
 }

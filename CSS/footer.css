@@ -11,7 +11,7 @@
     border: 2.5px solid var(--secondary-color);
     box-shadow: 0 8px 6px -6px var(--black); /* border shadow for subscribe box */
     display: flex;
-    color: #000;
+    color: var(--black);
     padding: 1em;
     margin: 1em;
     max-width: 100%;
