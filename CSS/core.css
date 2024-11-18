@@ -64,7 +64,7 @@ p {
 }
 
 .navbar, .sidebar, .gallery-container, .footer {
-    background-image: url('../Assets/abstract_map_background_with_topography_design_1105.png');
+    background-image: url('/Assets/dunetopography.jpg');
     background-size: cover; /* Cover the entire container */
     background-position: center;
     background-repeat: no-repeat;
