@@ -40,8 +40,9 @@
     align-items: center;
     align-self: center;
     justify-content: space-between;
-    margin: 0.5em;
+    margin: 0 auto; /* Center the navbar horizontally */
     padding: 0.5em;
+    max-width: 1440px;
 }
 
 .menu-toggle {
