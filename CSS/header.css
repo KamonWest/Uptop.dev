@@ -56,7 +56,6 @@
     right: 1rem;
     font-size: 1.5rem;
     color: var(--black);
-    cursor: grab;
     /* z-index: 1000; */
 }
 
@@ -70,16 +69,16 @@
     align-items: center;
     padding: 0 auto;
     margin: 0;
-    cursor: grab;
 }
 
 .navbar-links ul {
     list-style-type: none;
-    padding: 0 auto;
+    padding: 0.5em;
     margin: 0;
     display: flex;
     flex-direction: row;
-    gap: 0.63rem;
+    gap: 0.75rem;
+    cursor: grab;
 }
 
 .navbar-links a {
@@ -92,6 +91,7 @@
 
 .navbar-links a:hover {
     color: var(--primary-color);
+    cursor: pointer;
 }
 
 .header {
