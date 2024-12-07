@@ -6,7 +6,7 @@
 
 * {
     scroll-behavior: smooth;
-    cursor: pointer;
+    cursor: auto;
   }
 
   @font-face {
