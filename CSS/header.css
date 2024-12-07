@@ -97,7 +97,9 @@
 .header {
     max-height: fit-content;
     grid-area: hd;
+
     background-color: var(--background-color);
+
 }
 
 .hero {
