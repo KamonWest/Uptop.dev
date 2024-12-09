@@ -41,12 +41,12 @@
 }
 
 :root {
-  --max-width: 1440px;
+  --max-width: 1880px;
 }
 
 .navbar {
   max-width: var(--max-width);
-  /* maintained at 1440px */
+  /* maintained at 1880px */
 }
 
 .header-container {
