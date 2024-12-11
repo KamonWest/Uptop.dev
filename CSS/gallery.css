@@ -58,6 +58,7 @@
 
 .gallery a {
   color: var(--primary-color);
+  cursor: pointer;
 }
 
 figcaption {
