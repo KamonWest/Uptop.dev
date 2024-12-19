@@ -106,9 +106,9 @@ p {
 }
 
 .card-cta {
+    background-image: linear-gradient(to bottom, var(--primary-color)) 40%, var(--secondary-color) 60%;
     background-color: var(--secondary-color);
-    transition: background-color 0.3s ease-in-out;
-    transform: scale(1);
+    transition: background-color 0.3s ease-in-out; /* ease-in-out for smooth animation */
     color: var(--white);
     padding: 0.725em;
     align-items: flex;
