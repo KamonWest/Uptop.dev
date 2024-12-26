@@ -96,8 +96,8 @@
 
 .header {
     max-height: fit-content;
+    max-width: stretch;
     grid-area: hd;
-
     background-color: var(--background-color);
 
 }

@@ -112,6 +112,7 @@
         width: 100%;
         min-height: 350px; /* Min height for smaller screens */
         max-height: inherit;
+        max-width: inherit;
         padding: auto;
         object-fit: cover;
         background-repeat: no-repeat;
