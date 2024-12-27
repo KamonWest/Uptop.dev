@@ -111,8 +111,8 @@
     .hero {
         width: 100%;
         min-height: 350px; /* Min height for smaller screens */
-        max-height: inherit;
-        max-width: inherit;
+        max-height: inherit; /* Max height inherits from parent */
+        max-width: inherit; /* Max width inherits from parent */
         padding: auto;
         object-fit: cover;
         background-repeat: no-repeat;
@@ -120,7 +120,7 @@
     
     .header {
         grid-area: hd;
-        position: relative;
+        position: relative; /* Header is positioned relative to its parent */
         background-color: var(--background-color);
     }
     
